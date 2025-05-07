@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | Educare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Educare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="profile.html" class="active">Dashboard</a></li>
+                <li><a href="#" class="btn" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard">
+        <div class="sidebar">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/80" alt="User" class="avatar">
+                <h3>Student Name</h3>
+                <p>student@example.com</p>
+            </div>
+            <ul class="menu">
+                <li class="active"><a href="dashboard-student.html">Dashboard</a></li>
+                <li><a href="course.html">My Courses</a></li>
+                <li><a href="assessments.html">Assessments</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Welcome back, Student!</h1>
+            
+            <section class="stats">
+                <div class="stat-card">
+                    <h3>Enrolled Courses</h3>
+                    <p class="number">5</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Completed</h3>
+                    <p class="number">2</p>
+                </div>
+                <div class="stat-card">
+                    <h3>In Progress</h3>
+                    <p class="number">3</p>
+                </div>
+            </section>
+
+            <section class="current-courses">
+                <h2>Continue Learning</h2>
+                <div class="course-list">
+                    <div class="course-item">
+                        <div class="course-progress">
+                            <div class="progress-bar" style="width: 65%"></div>
+                            <span>65% complete</span>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Next: JavaScript Functions</p>
+                        <button class="resume-btn">Resume</button>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-progress">
+                            <div class="progress-bar" style="width: 30%"></div>
+                            <span>30% complete</span>
+                        </div>
+                        <h3>Data Science</h3>
+                        <p>Next: Pandas Basics</p>
+                        <button class="resume-btn">Resume</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="upcoming">
+                <h2>Upcoming Deadlines</h2>
+                <div class="deadline-list">
+                    <div class="deadline-item">
+                        <h3>Web Development Quiz</h3>
+                        <p>Due: May 15, 2023</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h3>Data Science Assignment</h3>
+                        <p>Due: May 20, 2023</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Educare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

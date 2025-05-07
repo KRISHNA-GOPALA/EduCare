@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | Educare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Educare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="#" class="btn" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile-container">
+        <div class="profile-sidebar">
+            <div class="profile-card">
+                <img src="https://via.placeholder.com/150" alt="Profile" class="profile-pic">
+                <h2>User Name</h2>
+                <p>user@example.com</p>
+                <p class="role">Student</p>
+            </div>
+            <ul class="profile-menu">
+                <li class="active"><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+            </ul>
+        </div>
+
+        <div class="profile-content">
+            <h1>My Profile</h1>
+            
+            <form class="profile-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" value="User Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="user@example.com" disabled>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" rows="4">I'm a passionate learner interested in web development and data science.</textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" value="New York, USA">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" value="+1 234 567 8900">
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="cancel-btn">Cancel</button>
+                    <button type="submit" class="save-btn">Save Changes</button>
+                </div>
+            </form>
+
+            <section class="account-settings">
+                <h2>Account Settings</h2>
+                <div class="settings-option">
+                    <h3>Change Password</h3>
+                    <button class="change-password-btn">Change Password</button>
+                </div>
+                <div class="settings-option">
+                    <h3>Notification Preferences</h3>
+                    <button class="notifications-btn">Manage Notifications</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Educare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

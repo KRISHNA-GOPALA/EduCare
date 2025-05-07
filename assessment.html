@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Quiz | Educare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Educare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#" class="btn" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="assessment-container">
+        <div class="assessment-header">
+            <h1>Web Development Quiz</h1>
+            <div class="assessment-info">
+                <p><strong>Course:</strong> Web Development Bootcamp</p>
+                <p><strong>Due:</strong> May 15, 2023 at 11:59 PM</p>
+                <p><strong>Time Remaining:</strong> <span class="timer">1:29:45</span></p>
+            </div>
+        </div>
+
+        <div class="assessment-progress">
+            <div class="progress-bar" style="width: 40%"></div>
+            <p>Question 2 of 5</p>
+        </div>
+
+        <form class="assessment-form">
+            <div class="question">
+                <h3>Question 2: What does CSS stand for?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q2" value="a">
+                        <span>Computer Style Sheets</span>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="b">
+                        <span>Creative Style Sheets</span>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="c" checked>
+                        <span>Cascading Style Sheets</span>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="d">
+                        <span>Colorful Style Sheets</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="assessment-navigation">
+                <button type="button" class="prev-btn">Previous</button>
+                <button type="button" class="next-btn">Next</button>
+                <button type="submit" class="submit-btn">Submit Quiz</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Educare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard | Educare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Educare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="profile.html" class="active">Dashboard</a></li>
+                <li><a href="#" class="btn" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard">
+        <div class="sidebar">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/80" alt="User" class="avatar">
+                <h3>Teacher Name</h3>
+                <p>teacher@example.com</p>
+            </div>
+            <ul class="menu">
+                <li class="active"><a href="dashboard-teacher.html">Dashboard</a></li>
+                <li><a href="my-courses.html">My Courses</a></li>
+                <li><a href="create-course.html">Create Course</a></li>
+                <li><a href="assessments.html">Assessments</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Welcome, Professor!</h1>
+            
+            <section class="stats">
+                <div class="stat-card">
+                    <h3>Your Courses</h3>
+                    <p class="number">4</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Students</h3>
+                    <p class="number">87</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Assignments</h3>
+                    <p class="number">12</p>
+                </div>
+            </section>
+
+            <section class="teacher-courses">
+                <h2>Your Courses</h2>
+                <div class="course-list">
+                    <div class="course-item">
+                        <h3>Web Development</h3>
+                        <p>32 students enrolled</p>
+                        <div class="course-actions">
+                            <button class="edit-btn">Edit</button>
+                            <button class="view-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="course-item">
+                        <h3>Advanced JavaScript</h3>
+                        <p>18 students enrolled</p>
+                        <div class="course-actions">
+                            <button class="edit-btn">Edit</button>
+                            <button class="view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="add-course-btn">+ Create New Course</button>
+            </section>
+
+            <section class="recent-activity">
+                <h2>Recent Student Activity</h2>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <p><strong>Jane Doe</strong> completed <strong>HTML Fundamentals</strong> in <strong>Web Development</strong></p>
+                        <span class="time">2 hours ago</span>
+                    </div>
+                    <div class="activity-item">
+                        <p><strong>John Smith</strong> submitted <strong>Assignment 1</strong> for <strong>Advanced JavaScript</strong></p>
+                        <span class="time">5 hours ago</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Educare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
