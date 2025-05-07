@@ -59,7 +59,7 @@
 
 3. **Course Screen:**
 
-   ![Course Screen](images/courses.jpeg)
+   ![Course Screen](images/cources.jpeg)
 
 4. **Quiz Assessment Screen:**
 
@@ -67,7 +67,7 @@
 
 5. **Course Progress Screen:**
 
-   ![Course Progress Screen](images/course_progress.jpeg)
+   ![Course Progress Screen](images/cource_progress.jpeg)
 
 6. **Home Screen:**
 
@@ -84,7 +84,7 @@
 
 10. **Profile Screen:**
 
-   ![Profile Screen](images/profile.jpeg)
+   ![Profile Screen](images/profile.jpg)
 
 11. **Linguistic Screen:**
 
