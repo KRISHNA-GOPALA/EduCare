@@ -67,7 +67,7 @@
 
 5. **Course Progress Screen:**
 
-   ![Course Progress Screen](images/course progress.jpeg)
+   ![Course Progress Screen](images/course_progress.jpeg)
 
 6. **Home Screen:**
 
@@ -76,11 +76,11 @@
 
 8. **Student Dashboard Screen:**
 
-   ![Student Dashboard Screen](images/student dashboard.jpeg)
+   ![Student Dashboard Screen](images/student_dashboard.jpeg)
 
 9. **Teacher Dashboard Screen:**
 
-   ![Teacher Dashboard Screen](images/teacher dashboard.jpeg)
+   ![Teacher Dashboard Screen](images/teacher_dashboard.jpeg)
 
 10. **Profile Screen:**
 
@@ -88,4 +88,4 @@
 
 11. **Linguistic Screen:**
 
-   ![Linguistic Screen](images/multi lingual.jpeg)
+   ![Linguistic Screen](images/multi_lingual.jpeg)
