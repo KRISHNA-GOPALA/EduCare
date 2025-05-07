@@ -49,18 +49,43 @@
    Open your browser and navigate to http://localhost:3000
 
 ## Screenshots
-1. **Login Screen:**
+1. **Signup Screen:**
 
    ![Signup Screen](images/signup.jpeg)
 
-2. **Officer Dashboard:**
-   ![Officer Dashboard](screens/2.png)
+2. **Login Screen:**
 
-3. **Officer Registration:**
-   ![Officer Registration](screens/3.png)
+   ![Login Screen](images/login.jpeg)
 
-4. **Data Entry:**
-   ![Data Entry](screens/4.png)
+3. **Course Screen:**
 
-5. **Search Functionality:**
-   ![Search Functionality](screens/5.png)
+   ![Course Screen](images/courses.jpeg)
+
+4. **Quiz Assessment Screen:**
+
+   ![Quiz Assessment Screen](images/assessment.jpeg)
+
+5. **Course Progress Screen:**
+
+   ![Course Progress Screen](images/course progress.jpeg)
+
+6. **Home Screen:**
+
+   ![Home Screen](images/home1.jpeg)
+   ![Home Screen](images/home2.jpeg)
+
+8. **Student Dashboard Screen:**
+
+   ![Student Dashboard Screen](images/student dashboard.jpeg)
+
+9. **Teacher Dashboard Screen:**
+
+   ![Teacher Dashboard Screen](images/teacher dashboard.jpeg)
+
+10. **Profile Screen:**
+
+   ![Profile Screen](images/profile.jpeg)
+
+11. **Linguistic Screen:**
+
+   ![Linguistic Screen](images/multi lingual.jpeg)
