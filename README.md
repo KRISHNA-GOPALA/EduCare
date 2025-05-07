@@ -47,3 +47,20 @@
    
 4. **Access the Application:**
    Open your browser and navigate to http://localhost:3000
+
+## Screenshots
+1. **Login Screen:**
+
+   ![Signup Screen](images/signup.jpeg)
+
+2. **Officer Dashboard:**
+   ![Officer Dashboard](screens/2.png)
+
+3. **Officer Registration:**
+   ![Officer Registration](screens/3.png)
+
+4. **Data Entry:**
+   ![Data Entry](screens/4.png)
+
+5. **Search Functionality:**
+   ![Search Functionality](screens/5.png)
